@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function kiem_tra(number1,number2){
+        if (number1 > number2){
+             return ('gia tri 1 lon hon gia tri 2');
+        }
+        else {
+            return (number2 + number1);
+        }
+    }
+    let number1 = +prompt('nhap vao so a');
+    let number2 = +prompt('nhap vao so b');
+    let b = kiem_tra(number1,number2);
+    document.write(b)
+</script>
+</body>
+</html>
